@@ -1,0 +1,170 @@
+.h1buynow{
+text-align: center;
+text-shadow:2px 2px 5px red;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+span{
+  color: orangered;
+}
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.row1{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style:none;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+content: ' ';
+position: absolute;
+left: 0;
+bottom: -10px;
+background-color:#ff5050;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+transition: all 0.4s ease;
+
+}
+.footer-col ul li:not(last-child){
+  margin-bottom:10px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight: 300;
+color: #bbbbbb;
+display: block;
+}
+.footer-col ul li a:hover{
+
+color: #ffffff;
+padding-left: 8px;
+
+}
+.footer-col .icons a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(255,255,255,0.2);
+margin:0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+
+}
+.footer-col .icons a:hover{
+color:white;
+background-color:orangered;
+}
+@media only screen and (max-width:700px){
+
+  .h1buynow{
+    text-align: center;
+    text-shadow:2px 2px 5px red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    }
+    span{
+      color: orangered;
+    }
+    .footer{
+      background-color: #24262b;
+      padding: 70px 0;
+    }
+    .footer-col{
+      width: 65%;
+      padding: 0 20px;
+    }
+    .container{
+      max-width: 1170px;
+      margin: auto;
+    }
+    .row1{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    ul{
+      list-style:none;
+    }
+    .footer-col h4{
+      font-size: 15px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 100;
+      position: relative;
+    }
+    .footer-col h4::before{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:#ff5050;
+    height: 2px;
+    box-sizing: border-box;
+    width: 40px;
+    transition: all 0.4s ease;
+    
+    }
+    .footer-col ul li:not(last-child){
+      margin-bottom:10px;
+    }
+    .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 200;
+    color: #bbbbbb;
+    display: block;
+    }
+    .footer-col ul li a:hover{
+    
+    color: #ffffff;
+    padding-left: 8px;
+    
+    }
+    .footer-col .icons a{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    
+    }
+    .footer-col .icons a:hover{
+    color:white;
+    background-color:orangered;
+    }
+
+}
